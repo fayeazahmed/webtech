@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+p,
+th,
+td,
+label,
+a {
+	font-family: system-ui;
+	text-decoration: none;
+}
+
+input {
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 6px;
+}
+
+nav {
+	background: #f5e7e7;
+	padding: 0 10px;
+}
+
+.posts > table {
+	border-bottom: 1px solid darkolivegreen;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #e7feff;
+	border-radius: 5px;
+}
+
+#homeform > textarea {
+	resize: none;
+	padding: 7px;
+	width: 400px;
+	height: 75px;
+	transition: height 0.3s;
+}
+
+#homeform > textarea:focus {
+	height: 125px;
+}
